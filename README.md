@@ -7,6 +7,7 @@ Getting Started
 -Follow these steps to set up and run the project:
 
 Clone the project by running the command below:
+
 bash
 `git clone https://github.com/nabidam/laravel-react-todo.git`
 `cd laravel-react-todo`
