@@ -1,31 +1,49 @@
 # laravel-react-todo
-A simple todo app written in php using [Laravel](https://laravel.com) and [ReactJS](https://reactjs.org).
+A comprehensive Todo app built with [Laravel](https://laravel.com) for the backend and [ReactJS](https://reactjs.org) for the frontend. This app allows users to manage their tasks efficiently with features like user authentication, task categorization, priority levels, and due dates.
 
 # Getting Started
+
+Getting Started
+-Follow these steps to set up and run the project:
+
 Clone the project by running the command below:
-
+bash
 `git clone https://github.com/nabidam/laravel-react-todo.git`
+`cd laravel-react-todo`
 
-then run:
+Backend Setup
 
+1-Navigate to the Backend Directory:
+
+bash
+`cd todo-backend`
+
+2-Install Composer Dependencies:
+
+bash
 `composer install`
 
-`npm install`
+3-Create the .env File by renaming `.env.example` to `.env` or :
 
-rename `.env.example` to `.env`
-then run:
+bash
+`cp .env.example .env`
 
+4-Generate the Application Key:
+
+bash
 `php artisan key:generate`
 
-then fill your database details in your .env file
+5-Configure the Database: Update your .env file with the database details.
 
-now you can run migrations:
+6-Run the Migrations:
 
 `php artisan migrate`
 
 then start the application:
 
 `php artisan serve`
+
+Access the Application
 
 and visit http://localhost:8000 to see the application.
 
@@ -35,10 +53,3 @@ and visit http://localhost:8000 to see the application.
 * [Material UI](https://material-ui.com)
 * [Font Awesome](https://fontawesome.com)
 
-# Thanks to
-I used [Taskman](https://github.com/ammezie/tasksman)'s codes to write this app, their functionality are similar, but they just differ in UI.
-
-
-# Screenshots
-![pic1](Screenshot_20190315_165244.png)
-![pic2](Screenshot_20190315_165331.png)
